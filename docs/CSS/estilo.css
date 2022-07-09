@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: rgb(55, 55, 118);
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(81, 6, 6);
+}
+
+section h2 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(5, 82, 107);
+    color: white;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.titulo {
+    font-size: 16px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: inherit;
+    filter: grayscale(100%);
+}
+
+.parrafo {
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+}
+
+.card:hover {
+    margin-top: 5px;
+    box-shadow: 10px 10px 10px rgb(6, 5, 5);
+}
+
+.card:hover img {
+    filter: grayscale(0);
+}
+
+.btn{
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: red;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card iframe {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.card video {
+    width: 100%;
+    border-radius: inherit;
+}
+
+section audio{
+    display: none;
+}
+
+/* TABLA */
+
+table {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    border: solid 1px rgb(189, 129, 129);
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1px;
+}
+
+table thead{
+    background-color: black;
+    color: white;
+}
+
+table caption{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+table tr th{
+    padding: 15px;
+    background-color:  rgb(109, 66, 66);
+}
+
+table tr td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(246, 222, 134);
+}
+table tr:nth-child(odd){
+    background-color: rgb(240, 201, 237);
+}
+
+table td:nth-child(6){
+    text-align: center;
+}
+
+tbody tr:hover{
+    background-color: rgb(109, 66, 66);
+}
+
+.lista{
+    padding: 50px;
+    list-style: lower-greek;
+}
+
+.lista2{
+    list-style: none;
+    font-size: xx-large;
+    
+}
+
+._contenedorForm{
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgb(1, 1, 1);
+    margin-bottom: 50px;
+}
+
+._contenedorForm h3{
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+}
+
+._input label{
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+._input input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+}
+
+.checkbox label{
+    display: inline;
+}
+
+
+.boton{
+    margin-top: 20px;
+}
+
+.boton button{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.signUp{
+    background-color: black;
+    color: white;
+}
+
+.face{
+    background-color: #3b5998;
+    color: white;
+}
+
+.tw{
+    background-color:  #00acee;
+    color: white;
+}
